@@ -1,0 +1,55 @@
+#maincontainer{
+	width: 400px;
+	height: 200px;
+	position: relative;
+	margin: auto;
+	top: 50px;
+	border-style: solid;
+	border-color: red;
+}
+#circle{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-color: red;
+	margin: auto;
+	float: left;
+}
+#triangle{
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border-style: solid;
+	border-color: red;
+	margin: auto;
+	float: left;
+	margin-left: 25px;
+}
+.result{
+	width: 50%;
+    height: 250px;
+    position: relative;
+    margin: auto;
+    top: 57px;
+    left: 165px;
+}
+.cir{
+	width: 75px;
+	height: 75px;
+	background: blue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	position: relative;
+	float: left;
+}
+.tri{
+	width: 0px;
+	height: 0px;
+	border-left: 35px solid transparent;
+	border-right: 35px solid transparent;
+	border-bottom: 70px solid green;
+	position: relative;
+	float: left;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title>Circle</title>
+		<link href='css/dragular.css' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="css/page.css">
+		<script src="js/angular.js"></script>
+		<script src='js/dragular.js'></script>
+		<script src="app/appModule.js"></script>
+	</head>
+	<body>
+		<div ng-app="myapp" ng-controller="myctrl">
+			<div>
+				<div id="maincontainer"  class="wrapper">
+						<div class="cir" id="cir1" name="circle"></div>
+						<div class="cir" id="cir2" name="circle"></div>
+						<div class="tri" id="tri1" name="triangle"></div>
+						<div class="tri" id="tri2" name="triangle"></div>
+				</div>
+				<div class="result">
+					<div class="wrapper circle" id="circle" name="circle">Circle</div>
+					<div class="wrapper triangle" id="triangle" name="triangle">Triangle</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
